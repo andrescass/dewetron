@@ -7,7 +7,7 @@ cmake_minimum_required(VERSION 3.1)
 # Name of the plugin project and compiled plugin file
 set(LIBNAME rs485_location)
 # This is just any stable GUID to help Visual Studio identify the project for rebuilds
-set("${LIBNAME}_GUID_CMAKE" "8117B8EC-E32F-42R2-8687-0D33BD7A87DA" CACHE INTERNAL "remove this and Visual Studio will mess up incremental builds")
+set("${LIBNAME}_GUID_CMAKE" "8117B8EC-E32F-42D2-8687-0D33BD7A87DA" CACHE INTERNAL "remove this and Visual Studio will mess up incremental builds")
 
 #
 # handle setup of a cmake toplevel project
